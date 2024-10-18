@@ -1,10 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a = 9;
-    int b = 5;
-    int x = 8;
-    int y = 8;
+    int a = 9, b = 5, x = 8, y = 8;
 
     int sisa_bagi_a = a % b;
     int sisa_bagi_x = x % y;

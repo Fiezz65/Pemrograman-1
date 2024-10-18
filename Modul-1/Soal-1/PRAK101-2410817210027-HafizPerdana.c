@@ -12,4 +12,4 @@ int main() {
 
     printf("Jumlah variabel tersebut adalah %d", jumlah);
     return 0;
-}
+}   

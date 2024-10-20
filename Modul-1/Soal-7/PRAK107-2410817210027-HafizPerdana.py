@@ -7,7 +7,7 @@ keliling = sisi1 + sisi2 + sisi3
 biaya_total = keliling * harga_per_meter
 
 print("Diketahui :")
-print("Panjang sisi segitiga berturut-turut adalah", sisi1, ",", sisi2, ", dan", sisi3)
+print(f"Panjang sisi segitiga berturut-turut adalah {sisi1}, {sisi2}, dan {sisi3}")
 print("Keliling Tanah Pak Dengklek adalah", keliling)
 print("Harga tanah Per Meter adalah", harga_per_meter)
 print("Jawaban :")

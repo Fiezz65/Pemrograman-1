@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    float jari_jari, tinggi, volume, luas_permukaan, keliling;
+    float radius, tinggi, volume, luas_permukaan, keliling;
 
     printf("");
-    scanf("%f", &jari_jari);
+    scanf("%f", &radius);
 
     printf("");
     scanf("%f", &tinggi);
 
-    volume = 3.14 * jari_jari * jari_jari * tinggi;
+    volume = 3.14 * radius * radius * tinggi;
 
-    luas_permukaan = 2 * 3.14 * jari_jari * (jari_jari + tinggi);
+    luas_permukaan = 2 * 3.14 * radius * (radius + tinggi);
 
-    keliling = 2 * 3.14 * jari_jari;
+    keliling = 2 * 3.14 * radius;
 
     printf("\n");
     printf("Volume = %.2f\n", volume);

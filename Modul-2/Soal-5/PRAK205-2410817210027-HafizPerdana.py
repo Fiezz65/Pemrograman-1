@@ -19,4 +19,4 @@ luas = 0.5 * alas * sisi_a
 print(f"Alas = {alas:.0f} cm")
 print(f"Tinggi = {tinggi:.0f} cm")
 print(f"Keliling = {keliling:.0f} cm")
-print(f"Luas = {luas:.0f} cm²")
+print(f"Luas = {luas:.0f} cm^2")

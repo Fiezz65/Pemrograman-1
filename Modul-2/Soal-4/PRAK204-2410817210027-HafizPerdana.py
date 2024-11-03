@@ -7,12 +7,12 @@ while True:
 
 inputs = list(map(float, inputs))
 
-radius, tinggi = inputs
+jarijari, tinggi = inputs
 
-volume = 3.14 * radius * radius * tinggi
-luas_permukaan = 2 * 3.14 * radius * (radius + tinggi)
-keliling = 2 * 3.14 * radius
+volume = 3.14 * jarijari * jarijari * tinggi
+luas = 2 * 3.14 * jarijari * (jarijari + tinggi)
+keliling = 2 * 3.14 * jarijari
 
 print(f"Volume = {volume:.2f}")
-print(f"Luas permukaan = {luas_permukaan:.2f}")
-print(f"Keliling alas = {keliling:.2f}")
+print(f"Luas = {luas:.2f}")
+print(f"Keliling = {keliling:.2f}")

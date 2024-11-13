@@ -9,11 +9,11 @@ int main() {
     printf("");
     scanf("%f", &tinggi);
 
-    volume = 3.14 * jarijari * jarijari * tinggi;
+    volume = 22 * jarijari * jarijari * tinggi / 7;
 
-    luas = 2 * 3.14 * jarijari * (jarijari + tinggi);
+    luas = 2 * 22 * jarijari * (jarijari + tinggi) / 7;
 
-    keliling = 2 * 3.14 * jarijari;
+    keliling = 2 * 22  * jarijari / 7;
 
     printf("\n");
     printf("Volume = %.2f\n", volume);

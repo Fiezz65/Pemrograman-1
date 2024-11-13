@@ -9,9 +9,9 @@ inputs = list(map(float, inputs))
 
 jarijari, tinggi = inputs
 
-volume = 3.14 * jarijari * jarijari * tinggi
-luas = 2 * 3.14 * jarijari * (jarijari + tinggi)
-keliling = 2 * 3.14 * jarijari
+volume = 22 * jarijari * jarijari * tinggi / 7
+luas = 2 * 22 * jarijari * (jarijari + tinggi) / 7
+keliling = 2 * 22 * jarijari / 7
 
 print(f"Volume = {volume:.2f}")
 print(f"Luas = {luas:.2f}")

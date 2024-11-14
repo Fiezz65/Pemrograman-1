@@ -12,7 +12,7 @@ int main () {
         printf("%d %d %d", b, a, c);
     } else if (a > c && c > b) {
         printf("%d %d %d", b, c, a);
-    } else if (b > a && a > b) {
+    } else if (b > a && a > c) {
         printf("%d %d %d", c, a, b);
     } else {
         printf("%d %d %d", c, b, a);

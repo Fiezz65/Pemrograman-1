@@ -1,6 +1,6 @@
 nilai = int(input(""))
 
-if nilai > 100:
+if nilai > 100 or nilai < 0:
     print("Error")
 elif nilai >= 80:
     print("A")

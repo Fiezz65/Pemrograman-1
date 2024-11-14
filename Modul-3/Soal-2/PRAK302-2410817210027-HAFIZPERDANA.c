@@ -5,7 +5,7 @@ int main() {
     printf("");
     scanf("%d", &nilai);
     
-    if (nilai > 100) {
+    if (nilai > 100 || nilai < 0) {
         printf("Error");
     } else if (nilai >= 80) {
         printf("A");

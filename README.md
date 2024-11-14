@@ -1,2 +1,2 @@
-# pemrograman1
+# Pemrograman 1
  Repo pemrograman 1

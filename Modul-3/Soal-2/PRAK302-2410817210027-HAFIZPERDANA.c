@@ -2,7 +2,6 @@
 int main() {
     int nilai;
 
-    printf("");
     scanf("%d", &nilai);
     
     if (nilai > 100 || nilai < 0) {

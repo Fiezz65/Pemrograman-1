@@ -2,7 +2,6 @@
 int main() {
     int total_detik, hari, jam, menit, detik;
 
-    printf("");
     scanf("%d", &total_detik);
 
     hari = total_detik / 86400;

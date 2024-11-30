@@ -5,7 +5,6 @@ int main() {
 
     scanf("%d", &batas);
 
-    printf("");
     for (i=1; i<=batas; i++) {
         if (i % 2 !=0) {
             printf("%d ", i);
@@ -20,4 +19,4 @@ int main() {
     }
 
     return 0;
-}
+} 

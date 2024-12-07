@@ -20,7 +20,7 @@ int main(){
     scanf("%d", &b);
     scanf("%d", &d);
 
-    Hasil= hitung(a, b)+hitung(c, d);
+    Hasil= hitung(a, b) + hitung(c, d);
     printf("%d", mutlak(Hasil));
 
     return 0;

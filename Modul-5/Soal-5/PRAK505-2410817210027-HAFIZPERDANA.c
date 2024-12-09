@@ -13,8 +13,8 @@ int main(){
     int tahunLahir;
         char A[20], B[15];
         scanf("%d", &tahunLahir);
-        scanf(" %[^\n]%*c", A);
-        scanf(" %[^\n]%*c", B);
+        scanf(" %[^\n]%*c", &A);
+        scanf(" %[^\n]%*c", &B);
     Biodata(tahunLahir, A, B);
     return 0;
 }
